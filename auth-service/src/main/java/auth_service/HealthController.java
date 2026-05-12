@@ -25,7 +25,7 @@ public class HealthController {
 
     @GetMapping("/")
     public String check() {
-        return "success";
+        return "success running";
     }
 
     @PostMapping("/login")
